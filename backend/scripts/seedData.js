@@ -13,11 +13,11 @@ const fundingData = [
 ];
 
 const impactData = [
-  { type: 'impact', name: 'Healthcare Improvements', value: 35 },
-  { type: 'impact', name: 'Urban Development', value: 25 },
-  { type: 'impact', name: 'Cybersecurity', value: 20 },
-  { type: 'impact', name: 'Economic Growth', value: 15 },
-  { type: 'impact', name: 'Education', value: 5 }
+  { type: 'impact', title: 'Research Impact Metrics', name: 'Healthcare Improvements', value: 35 },
+  { type: 'impact', title: 'Research Impact Metrics', name: 'Urban Development', value: 25 },
+  { type: 'impact', title: 'Research Impact Metrics', name: 'Cybersecurity', value: 20 },
+  { type: 'impact', title: 'Research Impact Metrics', name: 'Economic Growth', value: 15 },
+  { type: 'impact', title: 'Research Impact Metrics', name: 'Education', value: 5 }
 ];
 
 const seedDatabase = async () => {
