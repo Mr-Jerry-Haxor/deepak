@@ -11,7 +11,7 @@ const app = express();
 
 // Configure CORS
 const corsOptions = {
-  origin: 'https://deepakbackend.devhost.my', // Replace with your frontend's origin
+  origin: true,  // Replace with your frontend's origin
   optionsSuccessStatus: 200
 };
 
