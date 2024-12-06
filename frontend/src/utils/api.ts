@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api',
+  baseURL: 'https://deepakbackend.devhost.my/api',
 });
 
 // Add a request interceptor to include the JWT token
